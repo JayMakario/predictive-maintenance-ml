@@ -1,29 +1,20 @@
-## Project Goal
 
-The goal of this project is to identify whether a machine is likely to fail based on variables such as temperature, rotational speed, torque, tool wear, vibration, pressure, and machine type. 
-## Project Structure
+# Predictive Maintenance Model for Industrial Equipment
 
-```text
-predictive_maintenance_project/
-│
-├── data/
-│   └── predictive_maintenance.csv
-├── src/
-│   └── predictive_maintenance_project.py
-├── outputs/
-│   └── .gitkeep
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
+This project demonstrates how machine learning can be used to predict equipment failure using operational sensor data.
 
-## Tools Used
+## Features
+- Exploratory Data Analysis
+- Machine Learning Model Training
+- Random Forest Classifier
+- Streamlit Web Application
 
-- Python
-- pandas
-- scikit-learn
-- NumPy
-- Logistic Regression
-- Random Forest
+## Run the Project
 
+Install dependencies
 
+pip install -r requirements.txt
+
+Run Streamlit app
+
+streamlit run app.py
