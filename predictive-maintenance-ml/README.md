@@ -5,7 +5,7 @@ This project uses machine learning to predict equipment failure from operational
 ## Files
 - `analysis_model.ipynb`: notebook for data loading, modelling, and evaluation
 - `app.py`: Streamlit app for prediction
-- `best_model.pkl`: trained Random Forest model
+- `best_model.pkl`: trained Logistic Regression model
 - `scaler.pkl`: saved numerical scaler
 - `label_encoder_machine_type.pkl`: saved machine type encoder
 - `predictive_maintenance.csv`: synthetic project dataset
