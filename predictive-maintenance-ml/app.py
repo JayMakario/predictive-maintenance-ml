@@ -6,7 +6,7 @@ import joblib
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "best_model.pkl"
 
-model = joblib.load("MODEL_PATH")
+model = joblib.load(MODEL_PATH)
 
 st.title("Predictive Maintenance Model")
 st.write("Predict whether industrial equipment is at risk of failure.")
@@ -40,3 +40,5 @@ if st.button("Predict Failure"):
     st.subheader("Prediction Result")
     st.write("Failure Prediction:", int(prediction))
     st.write("Failure Probability:", round(float(probability), 4))
+
+
