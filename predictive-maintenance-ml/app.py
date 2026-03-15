@@ -1,6 +1,10 @@
+from pathlib import path
 import streamlit as st
 import pandas as pd
 import joblib
+
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "best_model.pkl"
 
 model = joblib.load("best_model.pkl")
 
