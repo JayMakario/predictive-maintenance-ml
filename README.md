@@ -70,7 +70,7 @@ Evaluated models using:
 - Precision (Failure Class): 0.00  
 - Recall (Failure Class): 0.00  
 
-### ⚠️ Key Observation
+###  Key Observation
 The dataset is **highly imbalanced**, with extremely few failure cases compared to non-failure cases.
 
 As a result:
